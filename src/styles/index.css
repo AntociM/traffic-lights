@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.inactive{
+    opacity: .5;
+}
+.active{
+    opacity: 1;
 }
